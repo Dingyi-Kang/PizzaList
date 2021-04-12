@@ -20,6 +20,7 @@
 		A4E172312624F99A0047B346 /* pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E172302624F99A0047B346 /* pizza.swift */; };
 		A4E172362624F9C20047B346 /* fetchJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E172352624F9C20047B346 /* fetchJson.swift */; };
 		A4E1723B2624FA9A0047B346 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A4E1723A2624FA9A0047B346 /* data.json */; };
+		A4E172402624FC5D0047B346 /* tabView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1723F2624FC5D0047B346 /* tabView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A4E172302624F99A0047B346 /* pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizza.swift; sourceTree = "<group>"; };
 		A4E172352624F9C20047B346 /* fetchJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchJson.swift; sourceTree = "<group>"; };
 		A4E1723A2624FA9A0047B346 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = data.json; path = PizzaList/Service/data.json; sourceTree = SOURCE_ROOT; };
+		A4E1723F2624FC5D0047B346 /* tabView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				A4E171D62624F7F90047B346 /* ContentView.swift */,
 				A4E172182624F8CF0047B346 /* SwiftUIView.swift */,
+				A4E1723F2624FC5D0047B346 /* tabView3.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E172402624FC5D0047B346 /* tabView3.swift in Sources */,
 				A4E171DA2624F7F90047B346 /* PizzaList.xcdatamodeld in Sources */,
 				A4E171D32624F7F90047B346 /* AppDelegate.swift in Sources */,
 				A4E171D52624F7F90047B346 /* SceneDelegate.swift in Sources */,
