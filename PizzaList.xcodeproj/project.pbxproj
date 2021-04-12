@@ -13,9 +13,13 @@
 		A4E171DA2624F7F90047B346 /* PizzaList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4E171D82624F7F90047B346 /* PizzaList.xcdatamodeld */; };
 		A4E171DC2624F7F90047B346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E171DB2624F7F90047B346 /* Assets.xcassets */; };
 		A4E171DF2624F7F90047B346 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E171DE2624F7F90047B346 /* Preview Assets.xcassets */; };
-		A4E171E22624F7F90047B346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E171E02624F7F90047B346 /* LaunchScreen.storyboard */; };
 		A4E171ED2624F7F90047B346 /* PizzaListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E171EC2624F7F90047B346 /* PizzaListTests.swift */; };
 		A4E171F82624F7F90047B346 /* PizzaListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E171F72624F7F90047B346 /* PizzaListUITests.swift */; };
+		A4E172192624F8CF0047B346 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E172182624F8CF0047B346 /* SwiftUIView.swift */; };
+		A4E1722C2624F9710047B346 /* pizzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1722B2624F9710047B346 /* pizzaModel.swift */; };
+		A4E172312624F99A0047B346 /* pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E172302624F99A0047B346 /* pizza.swift */; };
+		A4E172362624F9C20047B346 /* fetchJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E172352624F9C20047B346 /* fetchJson.swift */; };
+		A4E1723B2624FA9A0047B346 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A4E1723A2624FA9A0047B346 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +47,6 @@
 		A4E171D92624F7F90047B346 /* PizzaList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PizzaList.xcdatamodel; sourceTree = "<group>"; };
 		A4E171DB2624F7F90047B346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4E171DE2624F7F90047B346 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A4E171E12624F7F90047B346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4E171E32624F7F90047B346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4E171E82624F7F90047B346 /* PizzaListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E171EC2624F7F90047B346 /* PizzaListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListTests.swift; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		A4E171F32624F7F90047B346 /* PizzaListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E171F72624F7F90047B346 /* PizzaListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaListUITests.swift; sourceTree = "<group>"; };
 		A4E171F92624F7F90047B346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E172182624F8CF0047B346 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A4E1722B2624F9710047B346 /* pizzaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizzaModel.swift; sourceTree = "<group>"; };
+		A4E172302624F99A0047B346 /* pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizza.swift; sourceTree = "<group>"; };
+		A4E172352624F9C20047B346 /* fetchJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchJson.swift; sourceTree = "<group>"; };
+		A4E1723A2624FA9A0047B346 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = data.json; path = PizzaList/Service/data.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,14 @@
 		A4E171D12624F7F90047B346 /* PizzaList */ = {
 			isa = PBXGroup;
 			children = (
+				A4E172082624F8130047B346 /* View */,
+				A4E1720D2624F83B0047B346 /* Data */,
+				A4E1720C2624F8300047B346 /* Service */,
+				A4E1720B2624F8260047B346 /* ViewModel */,
+				A4E1720A2624F8200047B346 /* Model */,
 				A4E171D22624F7F90047B346 /* AppDelegate.swift */,
 				A4E171D42624F7F90047B346 /* SceneDelegate.swift */,
-				A4E171D62624F7F90047B346 /* ContentView.swift */,
 				A4E171DB2624F7F90047B346 /* Assets.xcassets */,
-				A4E171E02624F7F90047B346 /* LaunchScreen.storyboard */,
 				A4E171E32624F7F90047B346 /* Info.plist */,
 				A4E171D82624F7F90047B346 /* PizzaList.xcdatamodeld */,
 				A4E171DD2624F7F90047B346 /* Preview Content */,
@@ -137,6 +148,47 @@
 				A4E171F92624F7F90047B346 /* Info.plist */,
 			);
 			path = PizzaListUITests;
+			sourceTree = "<group>";
+		};
+		A4E172082624F8130047B346 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4E171D62624F7F90047B346 /* ContentView.swift */,
+				A4E172182624F8CF0047B346 /* SwiftUIView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4E1720A2624F8200047B346 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4E172302624F99A0047B346 /* pizza.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4E1720B2624F8260047B346 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1722B2624F9710047B346 /* pizzaModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4E1720C2624F8300047B346 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A4E172352624F9C20047B346 /* fetchJson.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A4E1720D2624F83B0047B346 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1723A2624FA9A0047B346 /* data.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +294,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E171E22624F7F90047B346 /* LaunchScreen.storyboard in Resources */,
 				A4E171DF2624F7F90047B346 /* Preview Assets.xcassets in Resources */,
+				A4E1723B2624FA9A0047B346 /* data.json in Resources */,
 				A4E171DC2624F7F90047B346 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +325,10 @@
 				A4E171D32624F7F90047B346 /* AppDelegate.swift in Sources */,
 				A4E171D52624F7F90047B346 /* SceneDelegate.swift in Sources */,
 				A4E171D72624F7F90047B346 /* ContentView.swift in Sources */,
+				A4E1722C2624F9710047B346 /* pizzaModel.swift in Sources */,
+				A4E172312624F99A0047B346 /* pizza.swift in Sources */,
+				A4E172362624F9C20047B346 /* fetchJson.swift in Sources */,
+				A4E172192624F8CF0047B346 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,17 +362,6 @@
 			targetProxy = A4E171F42624F7F90047B346 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A4E171E02624F7F90047B346 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4E171E12624F7F90047B346 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A4E171FA2624F7F90047B346 /* Debug */ = {

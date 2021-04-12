@@ -1,0 +1,23 @@
+
+[{
+    "name":"MeatHell",
+    "toppings":["sausage", "steak", "peperoni"],
+    "image":"meatlovers"
+    
+},
+{
+    "name":"PeaceGarden",
+    "toppings":["cabbage", "spinach", "chicken"],
+    "image":"hawaiian"
+    
+},
+
+{
+    "name":"Sweety",
+    "toppings":["pop", "suger", "honey"],
+    "image":"deluxe"
+    
+}
+
+
+]
